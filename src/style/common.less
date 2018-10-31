@@ -1,0 +1,37 @@
+@import './default.less';
+@import './loading.less';
+
+html, body {
+  background-color: #F1F3F5;
+}
+
+ul,li{
+  list-style: none;
+}
+.clearfix{
+  &::after{
+      content:' ';
+      clear:both;
+      display: block;
+      visibility: hidden;
+  }
+}
+
+.container {
+  display: flex;
+  .nav-left {
+    min-width: 180px;
+    height: calc(100vh);
+    background-color: #001529;
+  }
+  .main {
+    flex: 1;
+    background-color: @colorL;
+    height: calc(100vh);
+    overflow: auto;
+    .content {
+      position: relative;
+      padding: 20px;
+    }
+  }
+}

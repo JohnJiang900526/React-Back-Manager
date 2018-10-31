@@ -1,0 +1,37 @@
+@import '../../../style/default.less';
+
+@height: 400px;
+
+.carousel {
+  .card-item {
+    margin-bottom: 10px;
+    &.font {
+      .ant-carousel {
+        .slick-slide {
+          text-align: center;
+          height: @height;
+          line-height: @height;
+          background: #364d79;
+          overflow: hidden;
+          h3 {
+            color: @colorA;
+          }
+        }
+      }
+    }
+    &.img {
+      .ant-carousel {
+        .slick-slide {
+          text-align: center;
+          height: @height;
+          line-height: @height;
+          background: #364d79;
+          overflow: hidden;
+          .img-item {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
