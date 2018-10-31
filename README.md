@@ -4,7 +4,7 @@ This project was bootstrapped with Create React App.
 
 this project was my first react project
 
-Technical point: Immutable.js，React-redux,React-router4
+Technical point: React-redux, React-router4, echarts.js and the map of baidu
 
 Welcome advice, of course, if you like my project, please 
 
