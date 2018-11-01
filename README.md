@@ -12,6 +12,8 @@ give me a star, I need that.
 
 you can yarn or npm run dev for viewing code of the project
 
+
+
 ## Environmental parameters ##
 node >= 8.0, npm >= 5.0+, vscode
 
