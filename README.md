@@ -23,3 +23,5 @@ react-dom >= 16.4.0, react-redux >= 5.0.7
 
 react-router-dom >= 4.3.1, redux >= 4.0.0
 
+I am a good man, very good!
+
